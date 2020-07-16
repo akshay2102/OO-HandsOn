@@ -3,7 +3,7 @@ public class TestMain {
 		
 	// Create 4 objects of Employee by passing parameters (Hint: Parameterized Constructor)
 		
-		Employee employees[] = new Employee[2];
+		Employee employees[] = new Employee[4];
 		for(int i=0;i<employees.length;i++) {
 			String empID, empName;
 			int roleID;
