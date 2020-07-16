@@ -4,7 +4,8 @@ public class RoleBuilder {
 	public static String getRoleDescription(int roleId) {
 
 	// Complete the logic
-
+		if(roleId<1 || roleId>4)
+			roleId=0;
 		return roles[roleId];
 	}
 }
