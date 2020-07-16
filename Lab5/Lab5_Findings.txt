@@ -1,0 +1,2 @@
+Here, integer values arg1 and arg2 are passed by value. So changes done inside the function will not be visible outside. Hence, arg1 and arg2 values will remain the same inside the main method even after calling swapValues() function.
+To reflect the change inside the main method, values should be passed by reference which can be done by using objects in java similar to use of pointers in C/C++. 
