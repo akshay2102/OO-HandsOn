@@ -5,11 +5,10 @@ public class TestMain {
 			System.exit(0);
 		}
 		
-		double num = 0;
-		int whole = 0;
-		double fraction = 0;
+		double num = Double.parseDouble(args[0]);
+		int whole = DecimalSplitter.getWhole(num);
+		double fraction = DecimalSplitter.getFraction(num);
 		
-
 // complete the statements
 
 		System.out.println("Whole : " + whole);
