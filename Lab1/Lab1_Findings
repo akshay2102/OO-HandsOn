@@ -1,0 +1,29 @@
+The project contains a class named Account which manages a user's bank account.
+It stores the following data: 
+- AccNo
+- Name
+- Balance
+
+There are 2 manager classes AccManager1 and AccManager2 which access the Account class to store and retrieve the account 
+details for the same account. But implementation of both these manager classes are different.
+
+The AccManager1 class accesses the data members of the Account class directly without using methods for the same. This violates
+the encapsulation property of Object Oriented Programming. On the other hand AccManager2 class accesses the account information 
+through the getter and setter methods of data members which is the proper way.
+
+Output Generated: 
+
+Performing Account Transactions using AccManager1...
+AccNo : 004701
+Name : Chandra
+Balance : 45000.0
+Performing Account Transactions using AccManager2...
+AccNo : ICI004701
+Name : Chandra
+Balance : 48825.0
+
+As we can see there are some errors in the information displayed by AccManager1 like AccNo doesn't have the bank code 'ICI' in it making it 
+an invalid account number. Also, the balance is not displayed correctly as getter method of balance also adds the interest value to it but manager 1
+is accessing the variable directly making it an incorrect and erroneous balance. My suggestion would be to make the data members of Account class 
+private so outside world can only access them through the getter and setter methods defined in the Class. 
+Thus, AccManager2's implementation is correct according to the principles of Object Oriented Programming.
