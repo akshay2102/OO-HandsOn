@@ -1,0 +1,2 @@
+The static variable int MAX_CAPACITY is initialized to 0. So, I have considered proper value as any value greater than 0.
+The logic for taking input from user is written inside a static block hence this piece of code will only execute once.
