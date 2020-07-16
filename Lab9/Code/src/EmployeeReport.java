@@ -21,7 +21,6 @@ public class EmployeeReport {
 		// Complete the logic 	
 		System.out.println("EMP_ID\tNAME\tROLE\t\tBASIC\tHRA\tALLOWANCE\tSALARY");
 		for(int i=0;i<empArr.length;i++) {
-			String role;
 			Employee e = new Employee();
 			Roles r = new Roles();
 			e = empArr[i];
