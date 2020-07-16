@@ -1,0 +1,7 @@
+Employee and Address classes as interpreted by me:
+Employee class: String name, String empId and Address addr along with getter and setter methods.
+
+Address class: String addr1, String addr2, String city, String pin along with getter and setter methods.
+
+EmployeeDemo class uses 2 methods for storing and retrieving employee details from the object of Employee
+Class. Employee and Address class have a 'Has-A' relationship.
